@@ -17,6 +17,13 @@ module.exports = {
         pathRewrite: {
           '^/api/company': ''
         }
+      },
+      '/api/sys': {
+        target: 'http://localhost:9002/sys/',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api/sys': ''
+        }
       }
     },
 
