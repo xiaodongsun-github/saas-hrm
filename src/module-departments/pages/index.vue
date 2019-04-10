@@ -114,7 +114,7 @@
 </template>
  
 <script>
-import { list, findById, deleteById } from "@/api/base/departments";
+import { list, findById, deleteById } from "@/api/base/dept";
 import commonApi from "@/utils/common";
 //引入组件
 import deptAdd from "./../components/add";

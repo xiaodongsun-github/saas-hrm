@@ -22,7 +22,7 @@
   </el-dialog>
 </template>
 <script>
-import { saveOrUpdate } from "@/api/base/departments";
+import { saveOrUpdate } from "@/api/base/dept";
 export default {
   data() {
     return {

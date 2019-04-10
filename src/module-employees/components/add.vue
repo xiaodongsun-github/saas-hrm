@@ -48,7 +48,7 @@
 
 <script>
 import { add, jobnumber } from '@/api/base/users'
-import  * as deptApi  from '@/api/base/departments'
+import  * as deptApi  from '@/api/base/dept'
 import employeesData from '@/api/constant/employees'
 import commonApi from '@/utils/common'
 var _this = null
